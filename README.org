@@ -55,3 +55,6 @@ After all the tabs are collapsed
 
 You can use the =fetch.sh= script to fetch the unmodified design files. The script fetches the files
 from [[https://github.com/freecores]]
+
+* =LICENSE=
+All folders in this project has their own license. Hence the omission of a top-level =LICENSE= file.
