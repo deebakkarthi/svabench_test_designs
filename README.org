@@ -1,0 +1,11 @@
+#+TITLE: svabench_test_designs
+#+AUTHOR: Deebakkarthi Chinnasame Rani
+#+OPTIONS: ^:{}
+
+* svabench_test_designs
+
+This repository contains just the Verilog designs used as benchmarks in
+=SVABench=. All the designs are from [[https://opencores.org/][OpenCores]] . Specifically, they are
+all the Verilog designs that are /OpenCore Certified/ ([[https://opencores.org/projects?language=Verilog&certifiedProject=true]])
+
+Each design is placed under its own folder.
