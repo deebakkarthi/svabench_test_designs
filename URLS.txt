@@ -1,0 +1,17 @@
+https://github.com/freecores/ecg
+https://github.com/freecores/pairing
+https://github.com/freecores/tiny_tate_bilinear_pairing
+https://github.com/freecores/xge_mac
+https://github.com/freecores/ethmac
+https://github.com/freecores/i2c
+https://github.com/freecores/sdcard_mass_storage_controller
+https://github.com/freecores/sockit_owm
+https://github.com/freecores/tiny_aes
+https://github.com/freecores/sha3
+https://github.com/freecores/reed_solomon_decoder
+https://github.com/freecores/sdr_ctrl
+https://github.com/freecores/hpdmc
+https://github.com/freecores/amber
+https://github.com/freecores/openmsp430
+https://github.com/freecores/minsoc
+https://github.com/freecores/vga_lcd

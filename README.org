@@ -2,10 +2,56 @@
 #+AUTHOR: Deebakkarthi Chinnasame Rani
 #+OPTIONS: ^:{}
 
-* svabench_test_designs
-
 This repository contains just the Verilog designs used as benchmarks in
 =SVABench=. All the designs are from [[https://opencores.org/][OpenCores]] . Specifically, they are
 all the Verilog designs that are /OpenCore Certified/ ([[https://opencores.org/projects?language=Verilog&certifiedProject=true]])
 
 Each design is placed under its own folder.
+
+* Extraction
+Run the following JS code in the console of [[https://opencores.org/projects?language=Verilog&certifiedProject=true]]
+
+#+BEGIN_SRC js
+  const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+    elements = document.getElementsByClassName("toggle");
+    for (let i = 0; i < elements.length; i++) {
+	elements[i].click();
+	await delay(1);
+    }
+#+END_SRC
+
+After all the tabs are collapsed
+
+#+BEGIN_SRC js
+  for(let element of document.querySelectorAll("tbody>tr")){
+      console.log(new URL(element.children[0].children[1].href).pathname.split("/").pop());
+  }
+#+END_SRC
+
+- =ecg=
+- =pairing=
+- =tiny_tate_bilinear_pairing=
+- =xge_mac=
+- =ethmac=
+- =i2c=
+- =sdcard_mass_storage_controller=
+- =sockit_owm=
+- =tiny_aes=
+- =sha3=
+- =reed_solomon_decoder=
+- =sdr_ctrl=
+- =hpdmc=
+- =amber=
+- =openmsp430=
+- =or1k=
+- =or2k=
+- =minsoc=
+- =vga_lcd=
+
+  Out of these we will remove =or1k= and =or2k= as they are not available in the freecores repo.
+
+
+* Fetching the original files
+
+You can use the =fetch.sh= script to fetch the unmodified design files. The script fetches the files
+from [[https://github.com/freecores]]
