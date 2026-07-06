@@ -17,24 +17,31 @@ if [[ "$#" -gt 0 ]]; then
 		input_dir="$1"
 	fi
 fi
+input_dir=$(realpath "$input_dir")
 
 if [[ ! -d "$input_dir" ]]; then
 	echo -e "$progname: $input_dir doesn't exist"
 	exit 1
 fi
 
-
 declare -i passed
+declare -i failed
 declare -i total
 declare -i curr
 total=$(find "$input_dir" -depth -mindepth 1 -maxdepth 1  -type f -name "*f" | wc -l)
 curr=1
+# Change dir because .f files have relative paths
+pushd $input_dir > /dev/null
 for file in "$input_dir"/*.f; do
 	echo -en "[$curr/$total] Testing $file\033[K\r"
 	if iverilog -f "$file" >/dev/null 2>&1; then
 		((passed++))
+	else
+		((failed++))
 	fi
 	((curr++))
 done
 echo -e "\033[K\r[$passed/$total] compiled successfully"
 rm -rf "./a.out"
+# Return back to the original dir
+popd > /dev/null

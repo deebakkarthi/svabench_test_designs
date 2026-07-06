@@ -4,7 +4,13 @@
 
 This repository contains just the Verilog designs used as benchmarks in
 =SVABench=. All the designs are from [[https://opencores.org/][OpenCores]] . Specifically, they are
-all the Verilog designs that are /OpenCore Certified/ ([[https://opencores.org/projects?language=Verilog&certifiedProject=true]])
+all the Verilog designs that are /OpenCore Certified/ ([[https://opencores.org/projects?language=Verilog&certifiedProject=true]]).
+
+* What does this mean?
+
+- [[https://opencores.org/howto/project]]
+- It means that these designs have been through some human quality control and can be assumed
+to be of a reasonable standard.
 
 Each design is placed under its own folder.
 
