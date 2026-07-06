@@ -62,5 +62,7 @@ After all the tabs are collapsed
 You can use the =fetch.sh= script to fetch the unmodified design files. The script fetches the files
 from [[https://github.com/freecores]]
 
+* Changes
+- =tiny_tate_bilinear_pairing= had 3 different group sizes. We choose 911 as the representative design.
 * =LICENSE=
 All folders in this project has their own license. Hence the omission of a top-level =LICENSE= file.
