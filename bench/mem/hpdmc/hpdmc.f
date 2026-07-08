@@ -1,0 +1,12 @@
+/*AUTO-GENERATED USING gen_command_file.sh*/
+./rtl/hpdmc.v
+./rtl/hpdmc_banktimer.v
+./rtl/hpdmc_busif.v
+./rtl/hpdmc_ctlif.v
+./rtl/hpdmc_datactl.v
+./rtl/hpdmc_ddrio.v
+./rtl/hpdmc_iddr32.v
+./rtl/hpdmc_idelay8.v
+./rtl/hpdmc_mgmt.v
+./rtl/hpdmc_oddr32.v
+./rtl/hpdmc_oddr4.v
