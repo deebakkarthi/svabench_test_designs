@@ -9,8 +9,7 @@ all the Verilog designs that are /OpenCore Certified/ ([[https://opencores.org/p
 * What does this mean?
 
 - [[https://opencores.org/howto/project]]
-- It means that these designs have been through some human quality control and can be assumed
-to be of a reasonable standard.
+- It means that these designs have been through some human quality control and can be assumed to be of reasonable quality.
 
 Each design is placed under its own folder.
 
