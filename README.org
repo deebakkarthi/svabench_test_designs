@@ -53,7 +53,7 @@ After all the tabs are collapsed
 - =minsoc=
 - =vga_lcd=
 
-  Out of these we will remove =or1k= and =or2k= as they are not available in the freecores repo.
+  Out of these we will remove =amber=, =or1k= and =or2k=. =or1k= and =or2k= aren't available. =amber= had some issues with =iverilog=.
 
 
 * Fetching the original files
@@ -66,6 +66,5 @@ from [[https://github.com/freecores]]
 - We use the larger design with /DMA/ for =sdcard_mass_storage_controller=
 - =aes= uses the largest group of 256
 - =sha3= uses the higher throughput version
-- =amber25= is used instead of the 3 stage =amber25=
 * =LICENSE=
 All folders in this project has their own license. Hence the omission of a top-level =LICENSE= file.
