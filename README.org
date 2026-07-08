@@ -64,5 +64,8 @@ from [[https://github.com/freecores]]
 * Changes
 - =tiny_tate_bilinear_pairing= had 3 different group sizes. We choose 911 as the representative design.
 - We use the larger design with /DMA/ for =sdcard_mass_storage_controller=
+- =aes= uses the largest group of 256
+- =sha3= uses the higher throughput version
+- =amber25= is used instead of the 3 stage =amber25=
 * =LICENSE=
 All folders in this project has their own license. Hence the omission of a top-level =LICENSE= file.
