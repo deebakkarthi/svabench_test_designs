@@ -1,0 +1,13 @@
+/*AUTO-GENERATED USING gen_command_file.sh*/
+./rtl/BM_lamda.v
+./rtl/DP_RAM.v
+./rtl/GF_matrix_ascending_binary.v
+./rtl/GF_matrix_dec.v
+./rtl/GF_mult_add_syndromes.v
+./rtl/Omega_Phy.v
+./rtl/RS_dec.v
+./rtl/error_correction.v
+./rtl/input_syndromes.v
+./rtl/lamda_roots.v
+./rtl/out_stage.v
+./rtl/transport_in2out.v
