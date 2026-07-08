@@ -53,7 +53,7 @@ After all the tabs are collapsed
 - =minsoc=
 - =vga_lcd=
 
-  Out of these we will remove =amber=, =or1k= and =or2k=. =or1k= and =or2k= aren't available. =amber= had some issues with =iverilog=.
+  Out of these we will remove =amber=, =or1k=, =or2k=, and =minsoc=
 
 
 * Fetching the original files

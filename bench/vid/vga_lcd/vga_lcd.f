@@ -1,0 +1,19 @@
+/*AUTO-GENERATED USING gen_command_file.sh*/
++incdir+./rtl
+./rtl/generic_dpram.v
+./rtl/generic_spram.v
+./rtl/timescale.v
+./rtl/vga_clkgen.v
+./rtl/vga_colproc.v
+./rtl/vga_csm_pb.v
+./rtl/vga_cur_cregs.v
+./rtl/vga_curproc.v
+./rtl/vga_defines.v
+./rtl/vga_enh_top.v
+./rtl/vga_fifo.v
+./rtl/vga_fifo_dc.v
+./rtl/vga_pgen.v
+./rtl/vga_tgen.v
+./rtl/vga_vtim.v
+./rtl/vga_wb_master.v
+./rtl/vga_wb_slave.v
