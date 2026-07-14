@@ -1,4 +1,3 @@
-/*AUTO-GENERATED USING gen_command_file.sh*/
 ./rtl/hpdmc.v
 ./rtl/hpdmc_banktimer.v
 ./rtl/hpdmc_busif.v

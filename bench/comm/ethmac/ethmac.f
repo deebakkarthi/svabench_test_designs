@@ -1,5 +1,3 @@
-# vim: set syntax=verilog :
-/*Command file derived from ethmac.core file*/
 ./rtl/ethmac.v
 
 ./rtl/eth_clockgen.v

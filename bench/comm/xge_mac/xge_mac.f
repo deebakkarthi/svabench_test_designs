@@ -1,4 +1,3 @@
-# vim: set syntax=verilog :
 +incdir+./rtl/include
 ./rtl/verilog/fault_sm.v
 ./rtl/verilog/generic_fifo.v

@@ -1,4 +1,3 @@
-/*AUTO-GENERATED USING gen_command_file.sh*/
 +incdir+./rtl
 ./rtl/sd_bd.v
 ./rtl/sd_clock_divider.v

@@ -1,4 +1,3 @@
-/*AUTO-GENERATED USING gen_command_file.sh*/
 ./rtl/BM_lamda.v
 ./rtl/DP_RAM.v
 ./rtl/GF_matrix_ascending_binary.v

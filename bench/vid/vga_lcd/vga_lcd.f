@@ -1,4 +1,3 @@
-/*AUTO-GENERATED USING gen_command_file.sh*/
 +incdir+./rtl
 ./rtl/generic_dpram.v
 ./rtl/generic_spram.v

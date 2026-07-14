@@ -1,5 +1,3 @@
-# vim: syntax=verilog :
-/*AUTO-GENERATED USING gen_command_file.sh*/
 ./rtl/const.v
 ./rtl/cubic.v
 ./rtl/fsm.v

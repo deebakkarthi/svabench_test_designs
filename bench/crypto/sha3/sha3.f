@@ -1,4 +1,3 @@
-/*AUTO-GENERATED USING gen_command_file.sh*/
 ./rtl/f_permutation.v
 ./rtl/keccak.v
 ./rtl/padder.v

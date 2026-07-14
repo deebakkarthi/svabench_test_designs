@@ -1,4 +1,3 @@
-# vim: set syntax=verilog :
 ./rtl/inc.v
 ./rtl/fun.v
 ./rtl/ecg.v

@@ -1,4 +1,3 @@
-/*AUTO-GENERATED USING gen_command_file.sh*/
 +incdir+./rtl/
 +incdir+./rtl/periph
 ./rtl/omsp_alu.v

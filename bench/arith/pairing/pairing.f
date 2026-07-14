@@ -1,4 +1,3 @@
-# vim: syntax=verilog :
 ./rtl/f36m.v
 ./rtl/f32m.v
 ./rtl/inc.v
