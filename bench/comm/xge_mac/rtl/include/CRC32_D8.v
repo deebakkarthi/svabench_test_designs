@@ -1,26 +1,3 @@
-///////////////////////////////////////////////////////////////////////
-// File:  CRC32_D8.v                             
-// Date:  Fri Feb  8 19:26:59 2008                                                      
-//                                                                     
-// Copyright (C) 1999-2003 Easics NV.                 
-// This source file may be used and distributed without restriction    
-// provided that this copyright statement is not removed from the file 
-// and that any derivative work contains the original copyright notice
-// and the associated disclaimer.
-//
-// THIS SOURCE FILE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS
-// OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
-// WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-//
-// Purpose: Verilog module containing a synthesizable CRC function
-//   * polynomial: (0 1 2 4 5 7 8 10 11 12 16 22 23 26 32)
-//   * data width: 8
-//                                                                     
-// Info: tools@easics.be
-//       http://www.easics.com                                  
-///////////////////////////////////////////////////////////////////////
-
-
 //module CRC32_D8;
 
   // polynomial: (0 1 2 4 5 7 8 10 11 12 16 22 23 26 32)

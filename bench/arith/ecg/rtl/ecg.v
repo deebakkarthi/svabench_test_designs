@@ -1,23 +1,3 @@
-/*
-    Copyright 2011, City University of Hong Kong
-    Author is Homer (Dongsheng) Hsing.
-
-    This file is part of Elliptic Curve Group Core.
-
-    Elliptic Curve Group Core is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Lesser General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    Elliptic Curve Group Core is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU Lesser General Public License for more details.
-
-    You should have received a copy of the GNU Lesser General Public License
-    along with Elliptic Curve Group Core.  If not, see http://www.gnu.org/licenses/lgpl.txt
-*/
-
 `include "inc.v"
 
 /* point scalar multiplication on the elliptic curve $y^2=x^3-x+1$ over a Galois field GF(3^M)
