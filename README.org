@@ -68,3 +68,6 @@ from [[https://github.com/freecores]]
 - =sha3= uses the higher throughput version
 * =LICENSE=
 All folders in this project has their own license. Hence the omission of a top-level =LICENSE= file.
+The license text in the source files have been stripped. Please refer to the 
+=LICENSE= file at the root of each benchmark or the opencores URL.
+
