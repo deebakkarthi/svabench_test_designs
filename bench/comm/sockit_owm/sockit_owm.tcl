@@ -8,7 +8,7 @@ if { [file exists sockit_owm_sva.f] == 1 } {
 
 elaborate
 clock clk
-reset -none
+reset rst
 
 prove -all
 llength [get_property_list -include {type {assert} status {proven} related_cover_status {green white}}]
